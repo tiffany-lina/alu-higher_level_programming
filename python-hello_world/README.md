@@ -1,11 +1,9 @@
-# 0-run Script
-
-This script runs a Python file whose name is stored in the $PYFILE environment variable.
-It automatically appends ".py" to the filename.
-# 1-run_inline.py Script
+# 1-run_inline Script
 
 This script runs Python code stored in the environment variable $PYCODE.
-Example usage:
+
+## Usage
+
 export PYCODE='print(f"Best School: {88+10}")'
-./1-run_inline.py
+./1-run_inline
 # Output: Best School: 98
