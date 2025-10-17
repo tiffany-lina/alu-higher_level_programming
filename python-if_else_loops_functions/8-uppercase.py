@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def uppercase(str):
-    """Print a string in uppercase using only one loop and no imports."""
+    result = ""
     for c in str:
-        print(
-            "{}".format(chr(ord(c) - 32)) if 'a' <= c <= 'z' else "{}".format(c),
-            end=''
-        )
-    print()
+        if 'a' <= c <= 'z':
+            result += chr(ord(c) - 32)
+        else:
+            result += c
+    print("{}".format(result))
