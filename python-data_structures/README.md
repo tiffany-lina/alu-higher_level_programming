@@ -94,4 +94,19 @@ $ ./6-main.py | cat -e
 7 8 9$
 --$
 $
+## Task 7: Add 2 tuples
+**File:** `7-add_tuple.py`
+
+### Description
+This function adds 2 tuples element-wise.  
+- Returns a new tuple of 2 integers.  
+- If a tuple has less than 2 elements, missing values are treated as 0.  
+- If a tuple has more than 2 elements, only the first 2 are used.
+
+### Example
+```bash
+$ ./7-main.py
+(89, 100)
+(2, 89)
+(1, 89)
 
