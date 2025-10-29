@@ -11,4 +11,16 @@ This function computes the square of all integers in a 2D matrix.
 $ ./0-main.py
 [[1, 4, 9], [16, 25, 36], [49, 64, 81]]
 [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+## Task 1: Replace element in a list
+**File:** `1-search_replace.py`
+
+### Description
+This function returns a new list where all occurrences of a given element are replaced with another element.  
+- Original list remains unchanged.
+
+### Example
+```bash
+$ ./1-main.py
+[1, 89, 3, 4, 5, 4, 89, 1, 1, 4, 89]
+[1, 2, 3, 4, 5, 4, 2, 1, 1, 4, 89]
 
