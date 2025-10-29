@@ -44,4 +44,14 @@ This function returns a set of elements common to two input sets.
 ```bash
 $ ./3-main.py
 ['C']
+## Task 4: Return elements present in only one set
+**File:** `4-only_diff_elements.py`
+
+### Description
+This function returns a set of elements that are present in exactly one of the two input sets.
+
+### Example
+```bash
+$ ./4-main.py
+['Bash', 'Javascript', 'Perl', 'Python', 'Ruby']
 
