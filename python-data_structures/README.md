@@ -65,4 +65,16 @@ This function replaces an element in a copy of a list at a specific position.
 $ ./4-main.py
 [1, 2, 3, 9, 5]
 [1, 2, 3, 4, 5]
+## Task 5: Remove all 'c' and 'C' from a string
+**File:** `5-no_c.py`
+
+### Description
+This function removes all occurrences of `c` and `C` from a string and returns the new string.
+
+### Example
+```bash
+$ ./5-main.py
+Best Shool
+hiago
+ is fun!
 
