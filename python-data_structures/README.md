@@ -109,4 +109,18 @@ $ ./7-main.py
 (89, 100)
 (2, 89)
 (1, 89)
+## Task 8: Tuple with string length and first character
+**File:** `8-multiple_returns.py`
+
+### Description
+This function returns a tuple containing:  
+1. The length of a string  
+2. The first character of the string  
+
+- If the string is empty, the first character is `None`.
+
+### Example
+```bash
+$ ./8-main.py
+Length: 22 - First character: A
 
