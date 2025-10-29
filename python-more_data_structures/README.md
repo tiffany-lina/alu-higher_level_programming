@@ -139,4 +139,17 @@ This function returns the key associated with the highest integer value in a dic
 $ ./10-main.py
 Best score: Molly
 Best score: None
+## Task 11: Multiply all values in a list using map
+**File:** `11-multiply_list_map.py`
+
+### Description
+This function returns a new list with all values of the input list multiplied by a given number.  
+- Uses `map` to avoid explicit loops.  
+- Original list remains unchanged.
+
+### Example
+```bash
+$ ./11-main.py
+[4, 8, 12, 16, 24]
+[1, 2, 3, 4, 6]
 
