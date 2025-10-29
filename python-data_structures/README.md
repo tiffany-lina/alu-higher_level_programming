@@ -135,4 +135,21 @@ This function finds and returns the biggest integer in a list.
 ```bash
 $ ./9-main.py
 Max: 90
+## Task 10: Find multiples of 2 in a list
+**File:** `10-divisible_by_2.py`
+
+### Description
+This function returns a new list of booleans indicating whether each integer in the original list is divisible by 2.  
+- The returned list has the same size as the original list.
+
+### Example
+```bash
+$ ./10-main.py
+0 is divisible by 2
+1 is not divisible by 2
+2 is divisible by 2
+3 is not divisible by 2
+4 is divisible by 2
+5 is not divisible by 2
+6 is divisible by 2
 
