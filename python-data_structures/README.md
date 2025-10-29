@@ -123,4 +123,16 @@ This function returns a tuple containing:
 ```bash
 $ ./8-main.py
 Length: 22 - First character: A
+## Task 9: Find the biggest integer in a list
+**File:** `9-max_integer.py`
+
+### Description
+This function finds and returns the biggest integer in a list.  
+- Returns `None` if the list is empty.  
+- Does not use the built-in `max()`.
+
+### Example
+```bash
+$ ./9-main.py
+Max: 90
 
