@@ -152,4 +152,18 @@ $ ./10-main.py
 4 is divisible by 2
 5 is not divisible by 2
 6 is divisible by 2
+## Task 11: Delete item at a specific position in a list
+**File:** `11-delete_at.py`
+
+### Description
+This function deletes an item at a specific position in a list.  
+- Returns the modified list.  
+- If the index is negative or out of range, the list remains unchanged.  
+- Does not use `pop()`.
+
+### Example
+```bash
+$ ./11-main.py
+[1, 2, 3, 5]
+[1, 2, 3, 5]
 
