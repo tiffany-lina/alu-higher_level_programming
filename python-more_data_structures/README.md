@@ -105,4 +105,25 @@ language: C
 Number: 89
 ids: [1, 2, 3]
 language: C
+## Task 9: Return a new dictionary with all values multiplied by 2
+**File:** `9-multiply_by_2.py`
+
+### Description
+This function returns a new dictionary with all values of the input dictionary multiplied by 2.  
+- Original dictionary remains unchanged.
+
+### Example
+```bash
+$ ./9-main.py
+Alex: 8
+Bob: 14
+John: 12
+Mike: 14
+Molly: 16
+--
+Alex: 16
+Bob: 28
+John: 24
+Mike: 28
+Molly: 32
 
