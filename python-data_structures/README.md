@@ -51,4 +51,18 @@ $ ./3-main.py
 3
 2
 1
+## Task 4: Replace element without modifying original list
+**File:** `4-new_in_list.py`
+
+### Description
+This function replaces an element in a copy of a list at a specific position.  
+- Returns a new list with the modification.
+- Original list remains unchanged.
+- If index is negative or out of range, returns a copy of the original list.
+
+### Example
+```bash
+$ ./4-main.py
+[1, 2, 3, 9, 5]
+[1, 2, 3, 4, 5]
 
