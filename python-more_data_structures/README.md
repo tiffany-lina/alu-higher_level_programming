@@ -54,4 +54,14 @@ This function returns a set of elements that are present in exactly one of the t
 ```bash
 $ ./4-main.py
 ['Bash', 'Javascript', 'Perl', 'Python', 'Ruby']
+## Task 5: Return number of keys in a dictionary
+**File:** `5-number_keys.py`
+
+### Description
+This function returns the number of keys in a given dictionary.
+
+### Example
+```bash
+$ ./5-main.py
+Number of keys: 3
 
