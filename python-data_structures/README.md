@@ -77,4 +77,21 @@ $ ./5-main.py
 Best Shool
 hiago
  is fun!
+## Task 6: Print a matrix of integers
+**File:** `6-print_matrix_integer.py`
+
+### Description
+This function prints a matrix of integers.  
+- Each row is printed on a new line.  
+- Integers are separated by a space using `str.format()`.  
+- Works with empty matrices as well.
+
+### Example
+```bash
+$ ./6-main.py | cat -e
+1 2 3$
+4 5 6$
+7 8 9$
+--$
+$
 
