@@ -166,4 +166,14 @@ This function deletes an item at a specific position in a list.
 $ ./11-main.py
 [1, 2, 3, 5]
 [1, 2, 3, 5]
+## Task 12: Switch values of a and b
+**File:** `12-switch.py`
+
+### Description
+This program swaps the values of two variables `a` and `b`.
+
+### Example
+```bash
+$ ./12-switch.py
+a=10 - b=89
 
