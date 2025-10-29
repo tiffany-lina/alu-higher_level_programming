@@ -126,4 +126,17 @@ Bob: 28
 John: 24
 Mike: 28
 Molly: 32
+## Task 10: Return key with the biggest integer value
+**File:** `10-best_score.py`
+
+### Description
+This function returns the key associated with the highest integer value in a dictionary.  
+- If the dictionary is empty or `None`, it returns `None`.  
+- Assumes all values are integers and unique.
+
+### Example
+```bash
+$ ./10-main.py
+Best score: Molly
+Best score: None
 
