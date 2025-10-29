@@ -37,3 +37,18 @@ This function replaces an element of a list at a specific position (like in C).
 $ ./2-main.py
 [1, 2, 3, 9, 5]
 [1, 2, 3, 9, 5]
+## Task 3: Print list in reverse
+**File:** `3-print_reversed_list_integer.py`
+
+### Description
+This function prints all integers of a list in reverse order, one per line, using `str.format()`.
+
+### Example
+```bash
+$ ./3-main.py
+5
+4
+3
+2
+1
+
