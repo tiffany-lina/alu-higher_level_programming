@@ -23,4 +23,15 @@ This function returns a new list where all occurrences of a given element are re
 $ ./1-main.py
 [1, 89, 3, 4, 5, 4, 89, 1, 1, 4, 89]
 [1, 2, 3, 4, 5, 4, 2, 1, 1, 4, 89]
+## Task 2: Add all unique integers in a list
+**File:** `2-uniq_add.py`
+
+### Description
+This function returns the sum of all unique integers in a list.  
+- Each integer is counted only once.
+
+### Example
+```bash
+$ ./2-main.py
+Result: 15
 
