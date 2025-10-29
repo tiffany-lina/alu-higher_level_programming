@@ -34,4 +34,14 @@ This function returns the sum of all unique integers in a list.
 ```bash
 $ ./2-main.py
 Result: 15
+## Task 3: Return common elements in two sets
+**File:** `3-common_elements.py`
+
+### Description
+This function returns a set of elements common to two input sets.
+
+### Example
+```bash
+$ ./3-main.py
+['C']
 
