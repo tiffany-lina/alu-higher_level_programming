@@ -79,4 +79,30 @@ Number: 89
 ids: [1, 2, 3]
 language: C
 track: Low level
+## Task 8: Delete a key in a dictionary
+**File:** `8-simple_delete.py`
+
+### Description
+This function deletes a key from a dictionary if it exists.  
+- If the key does not exist, the dictionary remains unchanged.
+
+### Example
+```bash
+$ ./8-main.py
+Number: 89
+ids: [1, 2, 3]
+language: C
+--
+Number: 89
+ids: [1, 2, 3]
+language: C
+--
+--
+Number: 89
+ids: [1, 2, 3]
+language: C
+--
+Number: 89
+ids: [1, 2, 3]
+language: C
 
