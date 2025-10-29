@@ -64,4 +64,19 @@ This function returns the number of keys in a given dictionary.
 ```bash
 $ ./5-main.py
 Number of keys: 3
+## Task 6: Print a dictionary by ordered keys
+**File:** `6-print_sorted_dictionary.py`
+
+### Description
+This function prints all keys and values of a dictionary in alphabetical order of the keys.  
+- Only the first level keys are sorted.  
+- Values can be of any type.
+
+### Example
+```bash
+$ ./6-main.py
+Number: 89
+ids: [1, 2, 3]
+language: C
+track: Low level
 
