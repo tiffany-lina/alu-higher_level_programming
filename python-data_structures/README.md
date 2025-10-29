@@ -25,4 +25,15 @@ This function retrieves an element from a list like in C.
 ```bash
 $ ./1-main.py
 Element at index 3 is 4
+## Task 2: Replace element
+**File:** `2-replace_in_list.py`
 
+### Description
+This function replaces an element of a list at a specific position (like in C).  
+- If the index is negative or out of range, it returns the original list.
+
+### Example
+```bash
+$ ./2-main.py
+[1, 2, 3, 9, 5]
+[1, 2, 3, 9, 5]
