@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Define a class Square with private size and area method."""
 
+
 class Square:
     """Represent a square with a size attribute and area calculation."""
 
