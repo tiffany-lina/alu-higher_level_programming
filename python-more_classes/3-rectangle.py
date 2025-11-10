@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Defines a class Rectangle with width, height, area, perimeter, and printing."""
+"""
+Defines a class Rectangle with width, height, area, perimeter, and printing.
+Includes __str__ and __repr__ methods.
+"""
 
 
 class Rectangle:
@@ -39,12 +42,4 @@ class Rectangle:
     def perimeter(self):
         if self.__width == 0 or self.__height == 0:
             return 0
-        return 2 * (self.__width + self.__height)
-
-    def __str__(self):
-        if self.__width == 0 or self.__height == 0:
-            return ""
-        return "\n".join(["#" * self.__width for _ in range(self.__height)])
-
-    def __repr__(self):
-        return "<3-rectangle.Rectangle object at {}>".format(hex(id(self)))
+        return 2 * (self.__width + self.__*
