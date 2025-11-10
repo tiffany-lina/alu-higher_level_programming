@@ -37,4 +37,5 @@ print("Area: {} - Perimeter: {}".format(r.area(), r.perimeter()))
 r.width = 10
 r.height = 3
 print("Area: {} - Perimeter: {}".format(r.area(), r.perimeter()))
-
+### 3-rectangle.py
+Defines a Rectangle class with width, height, area, perimeter, and printing via str() and repr().
