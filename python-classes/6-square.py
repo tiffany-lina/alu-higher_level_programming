@@ -1,13 +1,17 @@
 #!/usr/bin/python3
-"""Define a class Square with private size, position, area, and print method.
-"""
+"""Defines a class Square with size and position."""
 
 
 class Square:
-    """Represent a square with private size and position."""
+    """Represents a square with a size and position."""
 
     def __init__(self, size=0, position=(0, 0)):
-        """Initialize a square with optional size and position."""
+        """Initialize a new square.
+
+        Args:
+            size (int): Size of the square.
+            position (tuple): Position as a tuple of 2 positive integers.
+        """
         self.size = size
         self.position = position
 
@@ -33,20 +37,18 @@ class Square:
     @position.setter
     def position(self, value):
         """Set the position of the square with validation."""
-        if (not isinstance(value, tuple)
-                or len(value) != 2
-                or not all(isinstance(i, int) and i >= 0 for i in value)):
-            raise TypeError(
-                "position must be a tuple of 2 positive integers"
-            )
+        if (not isinstance(value, tuple) or
+            len(value) != 2 or
+            not all(isinstance(num, int) and num >= 0 for num in value)):
+            raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
     def area(self):
-        """Return the current area of the square."""
+        """Return the current square area."""
         return self.__size ** 2
 
     def my_print(self):
-        """Print the square using '#' characters, respecting position."""
+        """Print the square with the character # considering position."""
         if self.__size == 0:
             print()
             return
@@ -55,7 +57,7 @@ class Square:
         for _ in range(self.__position[1]):
             print()
 
-        # Print each line of the square with horizontal offset
         for _ in range(self.__size):
-            print(" " * self.__position[0] +
-                  "#" * self.__size)
+            # Print horizontal offset
+            print(" " * self.__position[0] + "#" * self.__size)
+
