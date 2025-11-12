@@ -39,3 +39,7 @@ r.height = 3
 print("Area: {} - Perimeter: {}".format(r.area(), r.perimeter()))
 ### 3-rectangle.py
 Defines a Rectangle class with width, height, area, perimeter, and printing via str() and repr().
+### 7-rectangle.py
+Implements the Rectangle class with width, height, area, perimeter,
+instance tracking, customizable print symbols, and full documentation.
+
