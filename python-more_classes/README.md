@@ -49,4 +49,8 @@ based on their area and return the bigger one.
 Extends the Rectangle class with a `square` class method
 that returns a new Rectangle instance with width == height == size.
 Demonstrates area, perimeter, and string representation of a square.
+### 6-rectangle.py
+Defines a Rectangle class with private width and height,
+tracks number of instances, and supports area, perimeter,
+string representation, and deletion message.
 
