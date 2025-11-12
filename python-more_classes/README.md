@@ -42,4 +42,7 @@ Defines a Rectangle class with width, height, area, perimeter, and printing via 
 ### 7-rectangle.py
 Implements the Rectangle class with width, height, area, perimeter,
 instance tracking, customizable print symbols, and full documentation.
+### 8-rectangle.py
+Adds a static method `bigger_or_equal` to compare two Rectangle objects
+based on their area and return the bigger one.
 
