@@ -45,4 +45,8 @@ instance tracking, customizable print symbols, and full documentation.
 ### 8-rectangle.py
 Adds a static method `bigger_or_equal` to compare two Rectangle objects
 based on their area and return the bigger one.
+### 9-rectangle.py
+Extends the Rectangle class with a `square` class method
+that returns a new Rectangle instance with width == height == size.
+Demonstrates area, perimeter, and string representation of a square.
 
