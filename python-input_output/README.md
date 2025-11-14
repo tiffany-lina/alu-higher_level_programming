@@ -10,4 +10,7 @@ Write a function that reads a UTF-8 text file and prints it to stdout.
 
 Write a function that writes a string to a UTF-8 text file and returns
 the number of characters written.
+## 2. Append to a file
 
+Write a function that appends a string to a UTF-8 text file and returns
+the number of characters added.
